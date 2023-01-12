@@ -1,0 +1,77 @@
+/*----- REUSABLES ---------*/
+
+
+
+.dashboard__dash {
+    border-left: solid 5px #fff;
+    background-color: rgb(21, 0, 41); 
+}
+
+/*----- SCHEDULE ---------*/
+
+.space {
+    margin: 15px;
+}
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+
+    color: #fff;
+    background-color: #40A3F8;
+    border-radius: 5px;
+    height: 220px;
+    padding: 20px;
+
+    overflow: hidden;
+}
+
+.notification > div {
+    margin: 10px;
+}
+
+.welcome__text {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.welcome__img {
+    width: 29%;
+    height: 220px;
+}
+
+.welcome__img img{ width: 100%; }
+
+.notification__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.view-eye {
+    display: flex;
+    align-items: center;
+}
+
+.frames {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frames,
+.next-patients,
+.statistics,
+
+
+/*----- NOTIFICATIONS ---------*/
+
+.calendar,
+.gender,
+.activities {
+    margin: 10px;
+    border-radius: 5px;
+}

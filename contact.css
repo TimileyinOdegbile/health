@@ -1,0 +1,267 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+}
+
+html {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Roboto', sans-serif;    
+    font-size: 15px;
+    font-weight: 300;
+}
+
+button {
+    color: #2d9bfc;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.gen-text {
+    color: #949494;
+    font-size: 100%;
+    padding: 10px 0;
+}
+
+.hero-section {
+    color: #fff;
+    background-image: url(./Resources/img/bg.png);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.healthcare__logo{
+    font-size: 170%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text p{
+    font-size: 90%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.hero__text a{
+    font-size: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 8px;
+    text-align: center;
+}
+
+.navbar__directory {
+    padding: 10px 0 50px 0;
+}
+
+.rough {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 241, 241);
+
+}
+
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    margin: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.contact__detail {
+    width: 50vw;
+    margin: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.details {
+    border-bottom: solid 1px #2d9bfc;
+}
+
+h3 {
+    font-size: 180%;
+    padding: 25px 15px;
+    color: #fff;
+    background: linear-gradient(90.98deg, #40A3F8 0.91%, #2B59FF 99.26%);
+    border-radius: 8.75px 8.75px 0px 0px;
+}
+
+h5 {
+    font-size: 110%;
+    padding: 15px 0;
+}
+
+.office__address {
+    display: flex;
+    align-items: center;
+    
+}
+
+.office__address img {
+    padding-right: 13px;
+}
+
+.phone p {
+    padding-bottom: 5px;
+}
+
+.contact__details--info {
+    margin: 10px 25px 25px 25px;
+}
+
+.box-hero input{
+    margin: 3% 5%;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 10px;
+    color: #000B33;
+    background-color: rgb(241, 241, 241);
+    border: none;
+
+}
+
+.box-hero button{
+    color: #fff;
+    background-color: #2d9bfc;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    margin: 3% 5%;
+
+}
+
+.write-message input{
+    height: 100px;
+}
+
+.mapping {
+    position: relative;
+}
+
+.map {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-subscribe {
+    display: flex;
+    margin: 30px 70px;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240); 
+    /* border-bottom: solid 2px #2B59FF;    */
+}
+
+.page-subscribe__health :first-child {
+    color: #40A3F8;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.page-subscribe__social--links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.category__links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.about__links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.email {
+    text-align: center;
+    width: 98%;
+    font-size: 70%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.line {
+    border-bottom: solid 1px #868686;
+    margin: 5px;
+}
+
+footer {
+    background-color: #e7e7e746;
+    color: #414040;
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+    padding: 3px 60px 20px 60px;
+    max-width: 100vw;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links p { margin-right: 15px; }
+
+.footer__links p a {
+    text-decoration: none;
+    color: #949494;
+}
+
+.footer__links p :last-child { margin-right: 0; }

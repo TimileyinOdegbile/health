@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*/*--------------------------------------*/
+/* COLOR */
+Blue #40A3F8
+White #fff
+Grey #949494
+/* -------------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*---- REUSABLES -----*/
+
+h1 span {color: #40A3F8;}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gen-text {
+    color: #949494;
+    font-size: 70%;
+}
+
+h4 { margin: -2px;}
+
+button {
+    color: #fff;
+    background-color: #40A3F8;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.book-appointment button,
+.explore button {
+    font-size: 90%;
+    margin-top: 30px;        
+}
+
+.subscribe button {
+    margin: 5px 0;
+    width: 100%;
+    font-size: 70%;
+}
+
+.page-appointment__button button {
+    background-color: #fff;
+    color: #40A3F8;
+    font-size: 120%;
+    margin-top: 30px;
+}
+
+/*---- LANDING PAGE -----*/
+
+header {
+    height: 100%;
+    background: rgba(128, 180, 233, 0.4);
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.healthcare-logo{
+    font-size: 200%;
+    color: #40A3F8;
+}
+
+.navbar-list {
+    display: flex;
+    font-size: 80%;
+    list-style: none;
+    align-items: center;
+}
+.navbar-list li { margin-right: 30px; }
+
+.navbar-list li a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.navbar-list button {
+    padding: 10px 20px;
+    font-size: 100%;
+}
+
+.header-box {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.header__boxtext--hero {
+    margin:  40px;
+}
+
+.header__box-text { 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header__box-img {
+    width: 50%;
+    position: relative;
+}
+
+.back-img {
+    position: absolute;
+    top: -130px;
+    left: 100px;
+    width: 450px;
+}
+.back-img img { width: 100%; }
+
+.doctor-img {
+    position: absolute;
+    width: 650px;
+    top: -100px;
+    left: -65px;
+}
+.doctor-img img { width: 100%; }
+
+.chats { position: absolute; }
+
+.icon1 {
+   bottom: 0px;
+   left: 95px;
+}
+
+.icon2 {
+    bottom: 0px;
+    right: 80px;
+}
+
+.icon3 {
+    top: 40px;
+    left: 45px;
+}
+
+.icon4 {
+    top: 90px;
+    right: -30px;
+}
+
+.icon5 {
+    left: 45px;
+    top: 250px;
+}
+
+/*---- STEPS AND SOLUTIONS -----*/
+
+.page-steps {
+    background: linear-gradient(360deg, rgba(255, 128, 230, 0.1) 0%, rgba(255, 166, 237, 0) 100%);
+}
+
+.page-steps--hero {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.page-steps__box {
+    width: 30%;
+}
+
+/*---- SPECIALIST -----*/
+
+.page-specialist {
+    background: linear-gradient(180deg, rgba(255, 128, 230, 0.1) 0%, rgba(255, 166, 237, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.page-specialist__hero {
+    width: 100%;
+}
+.page-specialist__hero img {
+    width: 100%;
+    transform: scale(0.80);
+}
+
+.page-specialist__head {
+    padding: 0 60px;
+}
+
+.page-specialist__head--text {
+    text-align: left;
+}
+
+.page-specialist__list {
+    padding: 0;
+    list-style: none;
+}
+
+/*---- SERVICES -----*/
+
+.page-service {
+    text-align: center;
+    padding-bottom: 50px;
+    background: linear-gradient (180deg, rgba(82, 143, 255, 0.315) 0.21%, rgba(160, 113, 255, 0) 97.38%);
+}
+
+.page-service__box {
+    display: flex;
+    margin: 30px;
+}
+
+.box-service {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 25px;
+}
+
+.pulmonology { 
+    border-bottom: 20px solid #40a2f880;
+}
+
+/*---- MEET CERTIFIED DOCTORS -----*/
+
+.page-meet {
+    justify-content: center;
+    text-align: center;
+}
+
+.page-meet__doctors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.profile {
+    background-color: #fff;  
+}
+
+.profile__hero {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.profile__hero--img {
+    width: 100%;
+    height: 290px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*---- APPLICATIONS STORES -----*/
+
+.page-apps {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(360deg, rgba(101, 98, 248, 0.3) 0%, rgba(255, 166, 237, 0) 100%);
+}
+
+.apps__hero {
+    width: 60%;
+}
+
+.apps__hero img {
+    width: 100%;
+}
+
+.apps__head {
+    margin: 0 80px 0 0;
+    padding: 25px;
+    width: 40%;
+}
+
+.apps__head h2 {
+    text-align: left;
+}
+
+.stores {
+    display: flex;
+}
+
+.stores :first-child {
+    margin-right: 10px;
+}
+
+
+/*---- CLIENTS REVIEW -----*/
+
+.page__clients {
+    background: linear-gradient(180deg, rgba(101, 98, 248, 0.3) 0%, rgba(255, 166, 237, 0) 100%);
+}
+
+.page__clients h2 {
+    margin-top: 0;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.review {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    max-width: 20%;
+    align-items: center;
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+}
+
+.rev-img {
+    text-align: center;
+}
+
+.rev-img img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.location-text {
+    font-size: 60%;
+    color: #40A3F8;
+}
+
+
+/*---- ABOUT US AND SUBSCRIBE -----*/
+
+.page-appointment {
+    display: flex;
+    margin: 120px 70px 70px 70px;
+    background-color:#40A3F8;
+    background-image: url(./Resources/img/Pattern.png);
+    height: 340px;
+    position: relative;
+    align-items: center;
+}
+
+.page-appointment__hero {
+    margin-left: 100px;
+    color: #fff;
+}
+
+.page-appointment__hero h2 { text-align: left; }
+
+.doctor-smile {
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+}
+
+.doctor-smile img {
+    width: 100%;
+    height: auto;
+}
+
+.page-subscribe {
+    display: flex;
+    margin: 70px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.page-subscribe__health :first-child {
+    color: #40A3F8;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.page-subscribe__social--links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.category__links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.about__links a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.email {
+    text-align: center;
+    width: 98%;
+    font-size: 70%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #5f5aa146;
+    color: #949494;
+    display: flex;
+    justify-content: space-between;
+    font-size: 60%;
+    padding: 0 60px 20px 60px;
+    max-width: 100vw;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links p { margin-right: 15px; }
+
+.footer__links p a {
+    text-decoration: none;
+    color: #949494;
+}
+
+.footer__links p :last-child { margin-right: 0; }
+
